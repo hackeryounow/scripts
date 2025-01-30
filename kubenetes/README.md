@@ -1,0 +1,12 @@
+### The related images
+- docker.io/flannel/flannel-cni-plugin:v1.6.0-flannel1
+- docker.io/flannel/flannel:v0.26.3
+- docker.io/rancher/local-path-provisioner:v0.0.31
+- registry.cn-hangzhou.aliyuncs.com/google_containers/coredns:v1.10.1
+- registry.cn-hangzhou.aliyuncs.com/google_containers/etcd:3.5.7-0
+- registry.cn-hangzhou.aliyuncs.com/google_containers/kube-apiserver:v1.27.16
+- registry.cn-hangzhou.aliyuncs.com/google_containers/kube-controller-manager:v1.27.16
+- registry.cn-hangzhou.aliyuncs.com/google_containers/kube-proxy:v1.27.16
+- registry.cn-hangzhou.aliyuncs.com/google_containers/kube-scheduler:v1.27.16
+- registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.9
+- registry.k8s.io/pause:3.8

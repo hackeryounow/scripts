@@ -1,0 +1,14 @@
+[Unit]
+Description=Jupyter Lab Service
+After=network.target
+
+[Service]
+Type=simple
+User=powergrid
+WorkingDirectory=/home/powergrid/jupyter
+ExecStart=/home/powergrid/anaconda3/bin/jupyter notebook --config=/home/powergrid/.jupyter/jupyter_lab_config.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
